@@ -15,11 +15,10 @@ source("R/module_home.R")
 source("R/module_explorer.R")
 source("R/module_viz.R")
 source("R/module_logo.R")
+source("R/league_users.R")
 
-# Connect
-con <- dbConnect(RSQLite::SQLite(), "./data/nuclearffdynasty-site")
-
-users <- dbReadTable(con, "users_league")
+league_id <- "1190192546172342272" # 2025 NuclearFF Dynasty
+users <- parse_league_users(league_id)
 
 # Define UI
 ui <- bslib::page_navbar(

@@ -1599,6 +1599,40 @@
         "Archs": "nlme.so.dSYM"
       }
     },
+    "pacman": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "pacman",
+        "Type": "Package",
+        "Title": "Package Management Tool",
+        "Version": "0.5.1",
+        "Authors@R": "c(person(\"Tyler\", \"Rinker\", role = c(\"aut\", \"cre\", \"ctb\"),\n        email = \"tyler.rinker@gmail.com\"), person(\"Dason\",\n        \"Kurkiewicz\", role = c(\"aut\", \"ctb\"), email =\n        \"dasonk@gmail.com\"), person(\"Keith\", \"Hughitt\", role =\n        c(\"ctb\")), person(\"Albert\", \"Wang\", role = c(\"ctb\")),\n        person(\"Garrick\", \"Aden-Buie\", role = c(\"ctb\")),\n        person(\"Albert\", \"Wang\", role = c(\"ctb\")),\n        person(\"Lukas\", \"Burk\", role = c(\"ctb\")))",
+        "Depends": "R (>= 3.5.0)",
+        "Imports": "remotes, methods, stats, utils",
+        "Suggests": "BiocManager, knitr, lattice, testthat (>= 0.9.0), XML",
+        "BugReports": "https://github.com/trinker/pacman/issues?state=open",
+        "Description": "Tools to more conveniently perform tasks associated with\n        add-on packages. pacman conveniently wraps library and package\n        related functions and names them in an intuitive and consistent\n        fashion.  It seeks to combine functionality from lower level\n        functions which can speed up workflow.",
+        "License": "GPL-2",
+        "URL": "https://github.com/trinker/pacman",
+        "RoxygenNote": "6.1.1",
+        "NeedsCompilation": "no",
+        "Packaged": "2019-03-11 01:37:03 UTC; trinker",
+        "Author": "Tyler Rinker [aut, cre, ctb],\n  Dason Kurkiewicz [aut, ctb],\n  Keith Hughitt [ctb],\n  Albert Wang [ctb],\n  Garrick Aden-Buie [ctb],\n  Albert Wang [ctb],\n  Lukas Burk [ctb]",
+        "Maintainer": "Tyler Rinker <tyler.rinker@gmail.com>",
+        "Repository": "RSPM",
+        "Date/Publication": "2019-03-11 11:50:07 UTC",
+        "Encoding": "UTF-8",
+        "Built": "R 4.4.0; ; 2024-04-25 06:05:07 UTC; unix",
+        "RemoteType": "standard",
+        "RemotePkgRef": "pacman",
+        "RemoteRef": "pacman",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+        "RemoteReposName": "CRAN",
+        "RemotePkgPlatform": "aarch64-apple-darwin20",
+        "RemoteSha": "0.5.1"
+      }
+    },
     "palmerpenguins": {
       "Source": "CRAN",
       "Repository": "https://packagemanager.posit.co/cran/latest",
@@ -1734,6 +1768,46 @@
         "RemoteSha": "1.3.2"
       }
     },
+    "purrr": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "purrr",
+        "Title": "Functional Programming Tools",
+        "Version": "1.0.4",
+        "Authors@R": "c(\n    person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = c(\"aut\", \"cre\"),\n           comment = c(ORCID = \"0000-0003-4757-117X\")),\n    person(\"Lionel\", \"Henry\", , \"lionel@posit.co\", role = \"aut\"),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"),\n           comment = c(ROR = \"03wc8by49\"))\n  )",
+        "Description": "A complete and consistent functional programming toolkit for\n    R.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://purrr.tidyverse.org/, https://github.com/tidyverse/purrr",
+        "BugReports": "https://github.com/tidyverse/purrr/issues",
+        "Depends": "R (>= 4.0)",
+        "Imports": "cli (>= 3.6.1), lifecycle (>= 1.0.3), magrittr (>= 1.5.0),\nrlang (>= 1.1.1), vctrs (>= 0.6.3)",
+        "Suggests": "covr, dplyr (>= 0.7.8), httr, knitr, lubridate, rmarkdown,\ntestthat (>= 3.0.0), tibble, tidyselect",
+        "LinkingTo": "cli",
+        "VignetteBuilder": "knitr",
+        "Biarch": "true",
+        "Config/build/compilation-database": "true",
+        "Config/Needs/website": "tidyverse/tidytemplate, tidyr",
+        "Config/testthat/edition": "3",
+        "Config/testthat/parallel": "TRUE",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.3.2",
+        "NeedsCompilation": "yes",
+        "Packaged": "2025-01-29 21:33:56 UTC; hadleywickham",
+        "Author": "Hadley Wickham [aut, cre] (<https://orcid.org/0000-0003-4757-117X>),\n  Lionel Henry [aut],\n  Posit Software, PBC [cph, fnd] (03wc8by49)",
+        "Maintainer": "Hadley Wickham <hadley@posit.co>",
+        "Repository": "RSPM",
+        "Date/Publication": "2025-02-05 18:00:01 UTC",
+        "Built": "R 4.4.0; x86_64-pc-linux-gnu; 2025-02-14 04:48:11 UTC; unix",
+        "RemoteType": "standard",
+        "RemotePkgRef": "purrr",
+        "RemoteRef": "purrr",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+        "RemoteReposName": "CRAN",
+        "RemotePkgPlatform": "aarch64-apple-darwin20",
+        "RemoteSha": "1.0.4"
+      }
+    },
     "rappdirs": {
       "Source": "CRAN",
       "Repository": "https://packagemanager.posit.co/cran/latest",
@@ -1767,6 +1841,43 @@
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "aarch64-apple-darwin20",
         "RemoteSha": "0.3.3"
+      }
+    },
+    "remotes": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "remotes",
+        "Title": "R Package Installation from Remote Repositories, Including\n'GitHub'",
+        "Version": "2.5.0",
+        "Authors@R": "c(\n    person(\"Gábor\", \"Csárdi\", , \"csardi.gabor@gmail.com\", role = c(\"aut\", \"cre\")),\n    person(\"Jim\", \"Hester\", role = \"aut\"),\n    person(\"Hadley\", \"Wickham\", role = \"aut\"),\n    person(\"Winston\", \"Chang\", role = \"aut\"),\n    person(\"Martin\", \"Morgan\", role = \"aut\"),\n    person(\"Dan\", \"Tenenbaum\", role = \"aut\"),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\")),\n    person(\"Ascent Digital Services\", role = \"cph\")\n  )",
+        "Description": "Download and install R packages stored in 'GitHub', 'GitLab',\n    'Bitbucket', 'Bioconductor', or plain 'subversion' or 'git'\n    repositories.  This package provides the 'install_*' functions in\n    'devtools'. Indeed most of the code was copied over from 'devtools'.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://remotes.r-lib.org, https://github.com/r-lib/remotes#readme",
+        "BugReports": "https://github.com/r-lib/remotes/issues",
+        "Depends": "R (>= 3.0.0)",
+        "Imports": "methods, stats, tools, utils",
+        "Suggests": "brew, callr, codetools, covr, curl, git2r (>= 0.23.0), knitr,\nmockery, pingr, pkgbuild (>= 1.0.1), rmarkdown, rprojroot,\ntestthat (>= 3.0.0), webfakes, withr",
+        "VignetteBuilder": "knitr",
+        "Config/Needs/website": "tidyverse/tidytemplate",
+        "Config/testthat/edition": "3",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.2.3",
+        "SystemRequirements": "Subversion for install_svn, git for install_git",
+        "NeedsCompilation": "no",
+        "Packaged": "2024-03-17 12:41:55 UTC; gaborcsardi",
+        "Author": "Gábor Csárdi [aut, cre],\n  Jim Hester [aut],\n  Hadley Wickham [aut],\n  Winston Chang [aut],\n  Martin Morgan [aut],\n  Dan Tenenbaum [aut],\n  Posit Software, PBC [cph, fnd],\n  Ascent Digital Services [cph]",
+        "Maintainer": "Gábor Csárdi <csardi.gabor@gmail.com>",
+        "Repository": "RSPM",
+        "Date/Publication": "2024-03-17 13:20:02 UTC",
+        "Built": "R 4.4.0; ; 2024-04-25 06:04:00 UTC; unix",
+        "RemoteType": "standard",
+        "RemotePkgRef": "remotes",
+        "RemoteRef": "remotes",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+        "RemoteReposName": "CRAN",
+        "RemotePkgPlatform": "aarch64-apple-darwin20",
+        "RemoteSha": "2.5.0"
       }
     },
     "renv": {
@@ -2351,11 +2462,38 @@
     }
   },
   "files": {
+    ".github/ISSUE_TEMPLATE/bug_report.md": {
+      "checksum": "965b71d5b32934ae9c60e6f1bdf45933"
+    },
+    ".github/ISSUE_TEMPLATE/doc_update.md": {
+      "checksum": "4d03061fab248b95d818d47c9f773531"
+    },
+    ".github/ISSUE_TEMPLATE/feature_request.md": {
+      "checksum": "4322fa0e2855510e7ac8a98b485bdf22"
+    },
+    ".github/PULL_REQUEST_TEMPLATE/pull_request.md": {
+      "checksum": "1d3e42c5b6a71c5bb09cc52d49559c27"
+    },
+    ".lintr": {
+      "checksum": "2fe4d25d9e948d2f9a20063eecbe1f0f"
+    },
+    ".RData": {
+      "checksum": "a4e7b6cd17888d399152e8aa7ad5b783"
+    },
     ".Rprofile": {
-      "checksum": "d3da83ee904c8a67fac3eb51c4bcd79d"
+      "checksum": "ac6bb98f799b47666bb3285c24b7ada0"
+    },
+    "app-main.R": {
+      "checksum": "cb915a2bfb3c9c18409de7178d379452"
     },
     "app.R": {
-      "checksum": "cb915a2bfb3c9c18409de7178d379452"
+      "checksum": "1983af3ef2f4b1d1b6e1c9ff278791ab"
+    },
+    "data/nuclearffdynasty-site": {
+      "checksum": "141f2d092ff020a35cd1a219b84005fc"
+    },
+    "docs/references.md": {
+      "checksum": "d5f602f4e6ec4ea651da1cf29927a101"
     },
     "global.R": {
       "checksum": "65f16786a7cfc45bdac5cdab5c015d5e"
@@ -2363,17 +2501,38 @@
     "LICENSE": {
       "checksum": "cc32b1d8b4b30ddad58b14a20a07b779"
     },
+    "R/module_explorer.R": {
+      "checksum": "601900a75b3c7f8acd646913a6c137f8"
+    },
+    "R/module_home.R": {
+      "checksum": "f0abd108a44a73c5dcbe9968ca4f078a"
+    },
+    "R/module_logo.R": {
+      "checksum": "2fc8393f49cd07910c6c9d592b14dab0"
+    },
+    "R/module_social.R": {
+      "checksum": "cc4cc036099629b8336f9b25e995a6c5"
+    },
+    "R/module_viz.R": {
+      "checksum": "74d93c1f2b069f80978acbeae3556545"
+    },
     "README.md": {
       "checksum": "4183936284f9dff538a8cf24e6d2c94b"
     },
     "renv.lock": {
-      "checksum": "f833a96d8825853ce05589c009ba749c"
+      "checksum": "0a5fe45ab6ef4e0cf2702cce35bfe20a"
     },
-    "www/custom_css.css": {
-      "checksum": "081070b4c1e25ce9f429612a9e5d4976"
+    "www/NuclearFF_Theme.css": {
+      "checksum": "03a5a29eb63a842485b2e95f78034e71"
+    },
+    "www/nuclearff/nuclearff-navbar-icon-color.png": {
+      "checksum": "addaf411e54c3140926d7dfc49bddc85"
+    },
+    "www/nuclearff/nuclearff-navbar-icon-dark.png": {
+      "checksum": "4e099713ee4b12cabb1a3e1d2bede96e"
     },
     "www/nuclearff/nuclearff-navbar-icon.png": {
-      "checksum": "4e099713ee4b12cabb1a3e1d2bede96e"
+      "checksum": "addaf411e54c3140926d7dfc49bddc85"
     }
   },
   "users": null

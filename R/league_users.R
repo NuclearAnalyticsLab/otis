@@ -18,7 +18,7 @@ parse_league_users <- function(league_id) {
   # Select relevant columns - ignore mascots
   users_clean <- users_unpacked |>
     dplyr::select(
-      user_id, display_name, is_owner, metadata_allow_pn, metadata_mention_pn,
+      user_id, display_name, commissioner = is_owner, metadata_allow_pn, metadata_mention_pn,
       metadata_allow_sms, metadata_player_like_pn, metadata_trade_block_pn,
       metadata_user_message_pn, metadata_league_report_pn, league_id, is_bot
     )
